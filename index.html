@@ -17,12 +17,39 @@
     header {
       background-color: #2c3e50;
       color: white;
-      padding: 2rem;
+      padding: 1.5rem;
       text-align: center;
     }
     header h1 {
       color: #ffffff;
      }
+    .perfil {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.perfil img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1.5rem;
+  border: 2px solid white;
+}
+
+.perfil .info h1 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+.perfil .info p {
+  margin: 0.3rem 0 0;
+  font-size: 1rem;
+  color: #dcdcdc;
+}
 
     main {
       max-width: 1000px;
@@ -73,12 +100,21 @@
   </style>
 </head>
 <body>
-
-  <header>
+<header>
+  <div class="perfil">
+    <img src="foto.jpg" alt="Foto de José Rivas">
+    <div class="info">
+      <h1>José Manuel Antonio Rivas González</h1>
+      <p>Profesional responsable, dedicado y apasionado por la tecnología</p>
+    </div>
+  </div>
+</header>
+ 
+  <!-- Este es un comentario en HTML <header>
     <img src="picture2.JPG" alt="Foto de José Rivas" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid white;">
     <h1>José Manuel Antonio Rivas González</h1>
     <p>Profesional responsable, dedicado y apasionado por la tecnología</p>
-  </header>
+  </header>    -->
 
   <main>
     <section>
